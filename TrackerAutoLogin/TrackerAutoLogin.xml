@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>TrackerAutoLogin</Name>
+  <Repository>mastiffmushroom/trackerautologin</Repository>
+  <Registry>https://hub.docker.com/repository/docker/mastiffmushroom/trackerautologin/general</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>[THE UNRAID FORUM WON'T LET ME CREATE A SUPPORT PAGE]https://github.com/mastiffmushroom/TrackerAutoLogin/issues</Support>
+  <Project>https://github.com/mastiffmushroom/TrackerAutoLogin</Project>
+  <Overview>This project automates logging in to private trackers to keep your account active.&#xD;
+&#xD;
+You can personalize how often it logs in. It also adds randomization to the login times so it doesn't seem automated&#xD;
+&#xD;
+Github: https://github.com/mastiffmushroom/TrackerAutoLogin&#xD;
+Dockerhub: https://hub.docker.com/repository/registry-1.docker.io/mastiffmushroom/trackerautologin/general</Overview>
+  <Category>Productivity: Tools:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/mastiffmushroom/TrackerAutoLogin/main/tal_icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1677812415</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>This project automates logging in to private trackers to keep your account active.&#xD;
+&#xD;
+You can personalize how often it logs in. It also adds randomization to the login times so it doesn't seem automated&#xD;
+&#xD;
+Github: https://github.com/mastiffmushroom/TrackerAutoLogin&#xD;
+Dockerhub: https://hub.docker.com/repository/registry-1.docker.io/mastiffmushroom/trackerautologin/general</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>1944</HostPort>
+        <ContainerPort>99</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data/>
+  <Environment/>
+  <Labels/>
+  <Config Name="Port for headless chromium" Target="99" Default="" Mode="tcp" Description="Container Port: 99" Type="Port" Display="always" Required="false" Mask="false">1944</Config>
+</Container>
