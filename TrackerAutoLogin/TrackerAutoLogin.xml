@@ -22,7 +22,7 @@ Dockerhub: https://hub.docker.com/repository/registry-1.docker.io/mastiffmushroo
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1677862378</DateInstalled>
+  <DateInstalled>1677862505</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Description>This project automates logging in to private trackers to keep your account active.&#xD;
@@ -43,7 +43,7 @@ Dockerhub: https://hub.docker.com/repository/registry-1.docker.io/mastiffmushroo
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/trackerautologin/config/</HostDir>
+      <HostDir/>
       <ContainerDir>/app/config/</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
@@ -51,5 +51,5 @@ Dockerhub: https://hub.docker.com/repository/registry-1.docker.io/mastiffmushroo
   <Environment/>
   <Labels/>
   <Config Name="Port for headless chromium" Target="99" Default="" Mode="tcp" Description="Container Port: 99" Type="Port" Display="always" Required="false" Mask="false">1944</Config>
-  <Config Name="/appdata config" Target="/app/config/" Default="/mnt/user/appdata/trackerautologin/config/" Mode="rw" Description="Container Path: /app/config/" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/trackerautologin/config/</Config>
+  <Config Name="/appdata config" Target="/app/config/" Default="/mnt/user/appdata/trackerautologin/config/" Mode="rw" Description="Container Path: /app/config/" Type="Path" Display="always" Required="false" Mask="false"/>
 </Container>
