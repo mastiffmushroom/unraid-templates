@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/mastiffmushroom/TrackerAutoLogin/issues</Support>
+  <Support>https://forums.unraid.net/topic/135837-support-mastiffmushroom-trackerautologin/</Support>
   <Project>https://github.com/mastiffmushroom/TrackerAutoLogin</Project>
   <Overview>This project automates logging in to private trackers to keep your account active.&#xD;
 &#xD;
