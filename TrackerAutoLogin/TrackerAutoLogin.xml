@@ -17,12 +17,12 @@ Github: https://github.com/mastiffmushroom/TrackerAutoLogin&#xD;
 Dockerhub: https://hub.docker.com/repository/registry-1.docker.io/mastiffmushroom/trackerautologin/general</Overview>
   <Category>Productivity: Tools:</Category>
   <WebUI/>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/mastiffmushroom/unraid-templates/master/TrackerAutoLogin/TrackerAutoLogin.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/mastiffmushroom/TrackerAutoLogin/main/tal_icon.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1677812415</DateInstalled>
+  <DateInstalled>1677862378</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Description>This project automates logging in to private trackers to keep your account active.&#xD;
@@ -41,8 +41,15 @@ Dockerhub: https://hub.docker.com/repository/registry-1.docker.io/mastiffmushroo
       </Port>
     </Publish>
   </Networking>
-  <Data/>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/trackerautologin/config/</HostDir>
+      <ContainerDir>/app/config/</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
   <Environment/>
   <Labels/>
   <Config Name="Port for headless chromium" Target="99" Default="" Mode="tcp" Description="Container Port: 99" Type="Port" Display="always" Required="false" Mask="false">1944</Config>
+  <Config Name="/appdata config" Target="/app/config/" Default="/mnt/user/appdata/trackerautologin/config/" Mode="rw" Description="Container Path: /app/config/" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/trackerautologin/config/</Config>
 </Container>
