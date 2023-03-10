@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>TrackerAutoLogin</Name>
   <Repository>mastiffmushroom/trackerautologin</Repository>
-  <Registry>https://hub.docker.com/repository/docker/mastiffmushroom/trackerautologin/general</Registry>
+  <Registry>https://hub.docker.com/r/mastiffmushroom/trackerautologin</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
