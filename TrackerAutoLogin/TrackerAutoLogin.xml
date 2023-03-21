@@ -30,7 +30,7 @@ Dockerhub: https://hub.docker.com/repository/registry-1.docker.io/mastiffmushroo
 You can personalize how often it logs in. It also adds randomization to the login times so it doesn't seem automated&#xD;
 &#xD;
 Github: https://github.com/mastiffmushroom/TrackerAutoLogin&#xD;
-Dockerhub: https://hub.docker.com/repository/registry-1.docker.io/mastiffmushroom/trackerautologin/general</Description>
+Dockerhub: https://hub.docker.com/r/mastiffmushroom/trackerautologin</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
