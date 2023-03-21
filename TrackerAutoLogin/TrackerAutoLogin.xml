@@ -15,7 +15,7 @@ You can personalize how often it logs in. It also adds randomization to the logi
 &#xD;
 Github: https://github.com/mastiffmushroom/TrackerAutoLogin&#xD;
 Dockerhub: https://hub.docker.com/repository/registry-1.docker.io/mastiffmushroom/trackerautologin/general</Overview>
-  <Category>Productivity: Tools:</Category>
+  <Category>Productivity: </Category>
   <WebUI/>
   <TemplateURL>https://raw.githubusercontent.com/mastiffmushroom/unraid-templates/master/TrackerAutoLogin/TrackerAutoLogin.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/mastiffmushroom/TrackerAutoLogin/main/tal_icon.png</Icon>
